@@ -1,0 +1,32 @@
+:root {
+  --color-primary: #d92f3d;
+  --color-primary-contrast: #fffaf3;
+  --color-bg: #f7f0e5;
+  --color-surface: #fffaf3;
+  --color-surface-alt: #efe4d3;
+  --color-text: #252321;
+  --color-muted: #706960;
+  --color-border: #e1d2bf;
+  --color-accent: #f0a43b;
+  --color-success: #287a58;
+  --color-error: #b63e3e;
+  --color-shadow: rgba(55, 37, 29, 0.12);
+  --font-heading: "Trebuchet MS", "Arial Rounded MT Bold", Arial, sans-serif;
+  --font-body: "Segoe UI", Arial, sans-serif;
+  --radius: 18px;
+}
+
+:root[data-theme="dark"] {
+  --color-primary: #f0444d;
+  --color-primary-contrast: #fff9f6;
+  --color-bg: #171719;
+  --color-surface: #222225;
+  --color-surface-alt: #2c2c30;
+  --color-text: #f5f0ed;
+  --color-muted: #bbb3af;
+  --color-border: #414044;
+  --color-accent: #ffbc59;
+  --color-success: #68c99b;
+  --color-error: #ff8585;
+  --color-shadow: rgba(0, 0, 0, 0.32);
+}
