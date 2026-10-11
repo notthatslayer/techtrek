@@ -43,7 +43,7 @@ select:focus-visible {
   background: var(--color-bg);
 }
 .header-inner {
-  width: min(1160px, calc(100% - 48px));
+  width: min(1160px, calc(100% - 64px));
   min-height: 76px;
   margin: 0 auto;
   display: flex;
@@ -123,7 +123,7 @@ main {
   min-height: calc(100vh - 150px);
 }
 .container {
-  width: min(1060px, calc(100% - 48px));
+  width: min(1060px, calc(100% - 64px));
   margin: 0 auto;
 }
 .hero {
@@ -345,7 +345,7 @@ h3 {
 .developer-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
+  gap: 24px;
 }
 
 .topic-card,
@@ -815,7 +815,8 @@ h3 {
 
 @media (max-width: 900px) {
   .header-inner {
-    width: min(100% - 36px, 1160px);
+  width: calc(100% - 40px);
+  margin-inline: auto;
   }
 
   .main-nav {
@@ -854,7 +855,8 @@ h3 {
 
 @media (max-width: 680px) {
   .container {
-    width: min(100% - 36px, 1060px);
+  width: calc(100% - 32px);
+  margin-inline: auto;
   }
 
   .header-inner {
