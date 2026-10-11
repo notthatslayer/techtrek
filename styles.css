@@ -43,7 +43,7 @@ select:focus-visible {
   background: var(--color-bg);
 }
 .header-inner {
-  width: min(1160px, calc(100% - 40px));
+  width: min(1160px, calc(100% - 48px));
   min-height: 76px;
   margin: 0 auto;
   display: flex;
@@ -123,7 +123,7 @@ main {
   min-height: calc(100vh - 150px);
 }
 .container {
-  width: min(1060px, calc(100% - 40px));
+  width: min(1060px, calc(100% - 48px));
   margin: 0 auto;
 }
 .hero {
@@ -815,7 +815,7 @@ h3 {
 
 @media (max-width: 900px) {
   .header-inner {
-    width: min(100% - 28px, 1160px);
+    width: min(100% - 36px, 1160px);
   }
 
   .main-nav {
@@ -854,7 +854,7 @@ h3 {
 
 @media (max-width: 680px) {
   .container {
-    width: min(100% - 30px, 1060px);
+    width: min(100% - 36px, 1060px);
   }
 
   .header-inner {
